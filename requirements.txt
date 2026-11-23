@@ -1,0 +1,9 @@
+nbgrader==0.9.6            # base
+pandas==3.0.6              # base
+matplotlib==3.11.2         # base
+scikit-learn==1.9.1        # base
+# scipy==1.17.0            # base
+seaborn==0.13.2            # base
+category-encoders==2.11.1  # base
+
+ucimlrepo

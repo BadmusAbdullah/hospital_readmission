@@ -221,3 +221,29 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+
+data/raw/*
+data/interim/*
+data/processed/*
+
+# Make exceptions for the .gitkeep files so the folders are preserved
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# MLflow run folder
+mlruns/
+
+# Model files
+*.pkl
+*.h5
+*.joblib
+
+# Mac system files
+.DS_Store
+
+# Python Virtual Environment
+.venv/
+venv/
