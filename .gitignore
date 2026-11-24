@@ -247,3 +247,6 @@ mlruns/
 # Python Virtual Environment
 .venv/
 venv/
+
+__pycache__/
+*.egg-info/

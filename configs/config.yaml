@@ -1,0 +1,21 @@
+paths:
+  raw_dir: "data/raw/"
+  interim_dir: "data/interim/"
+  processed_dir: "data/processed/"
+  models_dir: "models/"
+  reports_dir: "reports/"
+
+data_source:
+  url: "https://archive.ics.uci.edu/ml/machine-learning-databases/00296/dataset_diabetes.zip"
+  zip_filename: "dataset.zip"
+  checksum: 'f22425753cefbc18e321825450ec0f00'
+  expected_files:
+    - "dataset_diabetes/diabetic_data.csv"
+    - "dataset_diabetes/IDs_mapping.csv"
+
+experiment:
+  random_seed: 42
+  split_proportions:
+    train: 0.70
+    val: 0.15
+    test: 0.15
